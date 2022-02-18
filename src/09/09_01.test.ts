@@ -126,3 +126,5 @@ function passportist(letters: any) {
     const copy = [...letters].sort()
     console.log(copy)
 }
+
+export {}

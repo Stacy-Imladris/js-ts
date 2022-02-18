@@ -50,3 +50,5 @@ test("get only uncompleted tasks", () => {
     expect(uncompletedTasks[0].id).toBe(1);
     expect(uncompletedTasks[1].id).toBe(3);
 })
+
+export {}

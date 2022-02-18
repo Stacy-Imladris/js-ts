@@ -26,3 +26,5 @@ const cheapCourses = [
     {title: "CSS", price: 110},
     {title: "REACT", price: 150},
 ];
+
+export {}
