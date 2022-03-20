@@ -289,7 +289,7 @@ run()*/
 getNumber().then(n => console.log(n)).catch(error => console.log(error))
 getNumber().then(n => console.log(n), error => console.log(error))*/
 
-const repo = {
+/*const repo = {
     save(data) {
         try {
             localStorage.setItem('some-key', JSON.stringify(data))
@@ -327,7 +327,7 @@ const repo = {
             }
         })
     },
-}
+}*/
 
 /*const result = repo.save({name: 'Stacy Imladris'})
 if (result) {
@@ -435,7 +435,7 @@ async function run() {
 }
 run()*/
 
-const api = {
+/*const api = {
     async save() {
 
     },
@@ -451,14 +451,14 @@ async function xxx() {
 }
 
 async function run() {
-    /*await api.save()
+    /!*await api.save()
     console.log('saved')
     let data = await api.read()
-    console.log('read: ', data)*/
+    console.log('read: ', data)*!/
     let a = xxx()
     console.log(a)
 }
-run()
+run()*/
 
 
 

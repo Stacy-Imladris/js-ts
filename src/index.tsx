@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import {sum} from "./03/03";
 import {User} from "./06/06-callbacks";
 import './14/index'
+import './15/class'
 
 let a = sum(1,2)
 
